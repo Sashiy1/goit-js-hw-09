@@ -8,7 +8,7 @@ form.addEventListener('submit', onFormSubmit);
 
 function onFormSubmit(event) {
   event.preventDefault();
-  localStorage.removeItem(STORAGE_KEY);
+  
 
   const inputMessage = textarea.value.trim();
   const inputEmail = input.value.trim();
